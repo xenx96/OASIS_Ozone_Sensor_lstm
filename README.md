@@ -6,8 +6,10 @@ Pytorch_lstm 을 활용한 오존 센서 측정 project 입니다.
 -Data 전처리는 R로 진행하였으며, R파일은 현재 올라와있지 않고, 추후 업로딩 예정.
 
 # Function
--create_sequences로 Data의 Sequence의 갯수를 필요에 맞게 만들수 있습니다.
--personal_data_set은 추후 다른데이터 사용시, 필요에 맞게 function을 수정하여 사용하면 Data를 수정 할 수 있습니다.
+- create_sequences로 Data의 Sequence의 갯수를 필요에 맞게 만들수 있습니다.
+
+- personal_data_set은 추후 다른데이터 사용시, 필요에 맞게 function을 수정하여 사용하면 Data를 수정 할 수 있습니다.
+
 -data_set은 DeepLearning(LSTM)을 위한 Scaling 및 create_sequences를 활용한 Sequences 생성, GPU를 활용한 Tensor 변환을 할 수 있습니다.
 
 # Class
